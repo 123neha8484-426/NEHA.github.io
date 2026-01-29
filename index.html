@@ -1,140 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha Talib</title>
-    <style>
-        /* Basic Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f9f9f9;
-        }
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 1.5em;
-        }
-        nav {
-            text-align: center;
-            margin: 20px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #2c3e50;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #3498db;
-        }
-        section {
-            padding: 60px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        h2 {
-            text-align: center;
-            margin-bottom: 40px;
-            color: #2c3e50;
-        }
-        .projects, .contact {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .project-card, .contact-card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            flex: 1 1 250px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #2c3e50;
-            color: #fff;
-        }
-        footer a { color: #3498db; text-decoration: none; }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Neha Talib</title>
+  <meta content="Research Portfolio" name="description">
+  <meta content="Molecular Dynamics, LAMMPS, Computational Materials" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Neha</h1>
-        <p>I am a Material Scientist</p>
-    </header>
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Neha Talib</h1>
+      <p>I'm <span class="typed"
+          data-typed-items="a Physics Researcher, an MD Simulation Specialist, a LAMMPS User"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/123neha8484-426" target="_blank" class="github">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/neha-talib-5161b3319/" target="_blank" class="linkedin">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="mailto:123neha32@gmail.com" class="email">
+          <i class="bx bx-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am Neha, a passionate Material Scientist specializing in computational modeling and material research. I work on understanding materials at the atomic level to create innovative solutions for advanced applications.</p>
-    </section>
+  <main id="main">
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Simulation of borosilicate glass structure using molecular dynamics.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Investigation of radiation-resistant materials at atomic scale.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Atomistic modeling of material defects and properties.</p>
-            </div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Who am I?</h2>
+          <p>
+            I am a Physics researcher focused on atomistic simulations to understand structure–property relationships in
+            complex materials.
+          </p>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact">
-            <div class="contact-card">
-                <h3>Email</h3>
-                <p><a href="mailto:neha@example.com">neha@example.com</a></p>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile.jpg" class="img-fluid rounded-circle" alt="Neha Talib">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Physics Researcher & Computational Scientist</h3>
+            <p class="fst-italic">
+              My research interests include molecular dynamics simulations, radiation damage modeling, glassy
+              materials, and multiscale MD–FEM approaches. I work extensively with LAMMPS and post-processing tools for
+              high-quality scientific analysis.
+            </p>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i>
+                    <strong>Website:</strong>
+                    <span>123neha8484-426.github.io</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <span>123neha32@gmail.com</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong>
+                    <span>M.S. Physics</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i>
+                    <strong>Availability:</strong>
+                    <span>Open to PhD / Research Positions</span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="contact-card">
-                <h3>GitHub</h3>
-                <p><a href="https://github.com/123neha8484">github.com/123neha8484</a></p>
-            </div>
-            <div class="contact-card">
-                <h3>LinkedIn</h3>
-                <p><a href="https://linkedin.com/in/neha-talib">linkedin.com/in/neha-talib</a></p>
-            </div>
+
+          </div>
         </div>
+
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        &copy; 2026 Neha Talib | Made with ❤️
-    </footer>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            Strong expertise in atomistic simulations, radiation damage analysis, and scientific visualization.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><b>Simulation:</b> LAMMPS, DeePMD (basic), Materials Studio</li>
+              <li><b>Analysis:</b> RDF, MSD, Voronoi, Wigner–Seitz defects, FWHM</li>
+              <li><b>Visualization:</b> OVITO, VMD, ParaView</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <ul>
+              <li><b>Programming:</b> Python, Bash, basic C++</li>
+              <li><b>Systems:</b> Linux (Ubuntu), Windows</li>
+              <li><b>Documentation:</b> LaTeX, Markdown</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Research Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Research Focus</h2>
+          <p>
+            My work primarily involves molecular dynamics simulations of glassy and nuclear materials.
+          </p>
+        </div>
+
+        <ul>
+          <li>Borosilicate glass + UO₂ radiation damage simulations</li>
+          <li>PKA collision cascades (1–10 keV)</li>
+          <li>Defect analysis and structural disorder quantification</li>
+          <li>MD–FEM coupling concepts for NEMS</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="info">
+          <p>
+            📧 <strong>Email:</strong> <a href="mailto:123neha32@gmail.com">123neha32@gmail.com</a><br>
+            💼 <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/neha-talib-5161b3319/" target="_blank">Neha Talib</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
 
 </body>
+
 </html>
