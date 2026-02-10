@@ -63,5 +63,4 @@ Feel free to contact me or explore my work:
 
 ## Contact Me
 - **Email:** [123neha32@gmail.com](mailto:123neha32@gmail.com)  
-- **Website:** [www.NEHA.github.io](https://neha.github.io)  
 - **CV:** [Download PDF](link-to-your-cv.pdf)
