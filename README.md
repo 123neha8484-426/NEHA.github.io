@@ -1,7 +1,6 @@
 # Hi, I'm Neha 👋
 
 [![Email](https://img.shields.io/badge/Email-123neha32@gmail.com-red)](mailto:123neha32@gmail.com)
-[![Download CV](https://img.shields.io/badge/Download-CV-green)](link-to-your-cv.pdf)
 
 ---
 
@@ -63,4 +62,3 @@ Feel free to contact me or explore my work:
 
 ## Contact Me
 - **Email:** [123neha32@gmail.com](mailto:123neha32@gmail.com)  
-- **CV:** [Download PDF](link-to-your-cv.pdf)
